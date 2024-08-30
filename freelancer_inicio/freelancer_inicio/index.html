@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Virtual</title>
+    <link rel="preload" href="CSS/normalize.css" as="style">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
+    <link rel="preload" href="CSS/style.css" as="style">
+    <link href="CSS/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+       <h1 class="titulo"> Odyssey <span>Gallery</span></h1>
+    </header>
+
+    <!--  esto sirve para comentar -->
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Pinturas</a>
+            <a href="#">Sobre Nosotros</a>
+            <a href="#">Contactos</a>
+    
+        </nav>
+    </div>
+  
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Galeria De Arte En Linea</h2>
+            <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                  </svg>
+                  <p> Quito, Ecuador </p>
+            </div>
+            <a class="boton" href="#">Contactar</a> 
+        </div> <!-- aqui termina el contenido hero-->
+    </section>
+  
+    <main class="contenedor sombra">
+        <h2>Mis Servicios</h2>
+
+        <div class="servicios">
+            <section class="servicio">
+                <h3>Pinturas Locales</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brush" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 21v-4a4 4 0 1 1 4 4h-4" />
+                        <path d="M21 3a16 16 0 0 0 -12.8 10.2" />
+                        <path d="M21 3a16 16 0 0 1 -10.2 12.8" />
+                        <path d="M10.6 9a9 9 0 0 1 4.4 4.4" />
+                      </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, 
+                    deserunt cupiditate. Deserunt eaque quisquam.</p>
+            </section>
+            
+            <section class="servicio">
+                <h3>Salas de Exposiciones</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-lamp" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 20h6" />
+                        <path d="M12 20v-8" />
+                        <path d="M5 12h14l-4 -8h-6z" />
+                      </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, 
+                deserunt cupiditate. Deserunt eaque quisquam laudantium.</p>
+            </section>
+            
+            <section class="servicio">
+                <h3>Ventas</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building-store" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 21l18 0" />
+                        <path d="M3 7v1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1h-18l2 -4h14l2 4" />
+                        <path d="M5 21l0 -10.15" />
+                        <path d="M19 21l0 -10.15" />
+                        <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4" />
+                      </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, 
+                deserunt cupiditate.Deserunt eaque quisquam laudantium.</p>
+            </section>
+        </div> <!-- Cierre de la clase de servicios-->
+   
+        <section>
+            <h2>Contacto</h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Para contactarnos llene el formulario</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Ingrese su nombre">
+                        </div>
+                        
+                        <div class="campo">
+                            <label >Telefono</label>
+                            <input class="input-text" type="number" placeholder="Ingrese su telefono">
+                        </div>
+                        
+                        <div class="campo">
+                            <label> Email</label>
+                            <input class="input-text" type="email" placeholder="Ingrese su email">
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text" ></textarea>
+                        </div>
+                    </div> <!-- fin del contenedor de los campos-->    
+                    
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-100" type="submit" value="Enviar">
+                    </div>
+
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>Todos los derechos reservados. AF</p>
+    </footer>
+
+</body>
+</html>
